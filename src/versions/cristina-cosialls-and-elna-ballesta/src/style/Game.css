@@ -1,0 +1,40 @@
+.Game {
+    display: table;
+    font-family: italic;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-spacing: 0px;
+    background-color: #666666;
+    color: #000000;
+    border-color: gray;
+}
+
+thead {
+    display: flex;
+    flex-direction: column;
+    align-self: center; 
+}
+
+tbody {
+    display: flex;
+    flex-direction: column;
+    align-self: center; 
+}
+
+tfoot {
+    display: flex;
+    flex-direction: column;
+    align-self: center; 
+}
+
+tr {
+    display: table-row;
+}
+
+tbody tr {
+    align-self: center;
+}
+
+td {
+    display: table-cell;
+}

@@ -1,0 +1,27 @@
+.level-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    background-color: #2b2b2b;
+    margin: 0 350px 0 350px;
+    border-radius: 20px;
+}
+
+.level {
+    margin: 0 10px 0 10px;
+    padding: 10px 15px;
+    border: none;
+    color: #e5e5e5;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color .2s;
+    font-family: italic;
+}
+
+.level:hover {
+    background-color: #b7bdcf;
+    transition: 0.7s;
+    color: #2b2b2b;
+}

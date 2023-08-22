@@ -1,2 +1,3 @@
-# minesweeper23
-The classic minesweeper game built with ReactJS
+# Minesweeper23
+
+The classic minesweeper game built with ReactJS.

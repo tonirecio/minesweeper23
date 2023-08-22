@@ -1,0 +1,64 @@
+.Cell {
+    box-sizing: border-box;
+    width: 24px;
+    max-width: 24px;
+    min-width: 24px;
+    height: 24px;
+    min-height: 24px;
+    max-height: 24px; 
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    cursor: pointer; 
+} 
+
+.covered {
+    margin: 0px;
+	border: 2px solid;
+	border-color: #eeeeee #999999 #999999 #eeeeee;
+	background-color: #cccccc;
+	padding: 0px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.uncovered {
+    background-color: #bbbbbb;
+    border-width: 1px;
+    border-color: #999999;
+    padding: 1px;
+    cursor: default;
+    pointer-events: none;
+}
+
+.Cell p {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cell-red {
+    color: #ff0000;
+}
+
+.cell-1 {
+    color: #3333cc;
+}
+
+.cell-2 {
+	color: #006600;
+}
+
+.cell-3 {
+	color: #cc0000;
+}
+
+.cell-4 {
+	color: #660066;
+}
+
+.cell-5 {
+	color: #006666;
+}

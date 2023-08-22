@@ -1,0 +1,54 @@
+.cell-Square {
+    padding: 0;
+    margin: 0;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    font-size: 25px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px; 
+}  
+.background-covered {
+    background: linear-gradient(45deg, rgba(65, 65, 65, 0.7), rgba(139, 139, 139, 0.7));
+}
+.background-uncovered {
+    background: linear-gradient(45deg, rgba(192, 192, 192, 0.9), rgba(255, 255, 255, 0.5));
+}
+
+td.number-1 {
+color: blue;
+}
+
+td.number-2 {
+color: green;
+}
+
+td.number-3 {
+color: red;
+}
+
+td.number-4 {
+color: purple;
+}
+
+td.number-5 {
+color: orange;
+}
+
+td.number-6 {
+color: brown;
+}
+
+td.number-7 {
+color: teal;
+}
+
+td.number-8 {
+color: maroon;
+}
+
+td span {
+ display: inline-block;
+}

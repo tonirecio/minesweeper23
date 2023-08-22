@@ -1,0 +1,98 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title{
+  margin-top: 5%;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  font-size: 24px;
+  background-color: #ccc;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 10px outset #eeeef1;
+}
+
+.cell.clicked {
+  background-color: #aaaaaa99;
+  border: 10px outset #aaaaaad8;
+  cursor: initial;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.lose-game {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  color: #000;
+  width: 175px;
+  height: 225px;
+}
+
+.sad-emoji{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 50%;
+  margin-top: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.reset-button{
+  float: left;
+  margin-left: 20%;
+  margin-top: 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+.reset{
+  width: 150px;
+  height: 150px;
+}
+
+.timer {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-right: 435px;
+}
+
+.flags {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-right: 430px;
+}
+
+.mock-submit{
+  background-color: #333;
+  margin-bottom: 10%;
+}

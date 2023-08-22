@@ -1,0 +1,42 @@
+.Info-panel {
+    color: whitesmoke;
+    position: fixed;
+    z-index: 3;
+    top: 12%;
+    left: 55%;
+    width: 34%;
+    height: 80.3%;
+    background: linear-gradient(45deg, #313131c0, #5d5d5dc0);
+    border-radius: 30px;
+    border: solid rgb(255, 255, 255) 3px;
+}
+.info {
+    margin-top: 5%;
+    margin-left: 17%;
+    width: 65%;
+    font-size: 20pt;
+    font-variant: small-caps;
+    font-weight: bold;
+    background: linear-gradient(45deg, #313131, #8a8a8a);
+    border-bottom: solid rgb(255, 255, 255) 3px;
+    border-radius: 30px;
+}
+
+.header-info {
+    width: 100%;
+    font-size: 35pt;
+    font-variant: small-caps;
+    font-weight: bold;
+    background: linear-gradient(45deg, #313131, #8a8a8a);
+    border-bottom: solid rgb(255, 255, 255) 3px;
+    border-top: solid rgb(255, 255, 255) 3px;
+    border-radius: 30px;
+    text-align: center;
+}
+.input-Width{
+    width: 10%;
+    margin-bottom: 1%;
+}
+.center{
+    text-align: center;
+}

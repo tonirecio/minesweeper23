@@ -1,0 +1,155 @@
+:root {
+  font-family: system-ui;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  user-select: none;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add any other necessary properties for the parent container */
+}
+
+.container {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #9badb7;
+  align-items: center;
+  flex-direction: column;
+  width: 320px;
+  border: 5px solid white
+}
+
+.board {
+  width: fit-content;
+  text-align: center;
+}
+
+.board h1 {
+  color: #eee;
+}
+
+.board .game {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  border: 10px solid white
+}
+
+
+
+
+.stats-container {
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Asegura que el contenedor ocupe toda la altura disponible */
+  
+}
+
+.stats {
+  flex-direction: row;
+  display: flex;
+  align-items: center; /* Centra los elementos verticalmente en el contenedor .stats */
+}
+
+
+
+
+.window {
+
+  background-color: #387196;
+  border: 2px solid #8590a0;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  user-select: none;
+  box-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff;
+  width: fit-content;
+  padding: 2px;
+  margin: 2px;
+}
+
+.window-stats {
+
+  background-color: #387196;
+  border: 2px solid #8590a0;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  user-select: none;
+  box-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff;
+  width: 50px;
+
+}
+
+.buttons {
+
+  background-color: #b3bdcb;
+  border: 2px solid #8590a0;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff;
+  transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  width: 80px;
+}
+
+.buttons:hover {
+  background-color: #387196;
+  border-color: #9694a1;
+  box-shadow: 3px 3px 0 #fff, -3px -3px 0 #fff;
+}
+
+.buttons:active {
+  background-color: #a0a0a0;
+  border-color: #808080;
+  box-shadow: inset 1px 1px 3px #000;
+}
+
+/* Estilos para el reloj digital */
+.flag-counter {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Estilos para los dígitos del reloj */
+.flag-counter span {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}

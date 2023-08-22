@@ -1,0 +1,45 @@
+.Score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cccccc;
+    margin: 0px;
+    border: 2px solid;
+    border-color: #eeeeee #999999 #999999 #eeeeee;
+    padding: 0px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.score-mines, .score-time {
+    margin: 10px;
+    border: 1px inset #eeeeee;
+    padding-right: 3px;
+    width: 1.75em;
+    min-height: 24px;
+    background-color: #000000;
+    color: #ff6666;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: right;
+    display: block;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    background-color: #cccccc;
+    border: 3px groove #eeeeee;
+    padding: 6px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.button img {
+    width: 25px;
+    height: 25px;
+    overflow: clip;
+}

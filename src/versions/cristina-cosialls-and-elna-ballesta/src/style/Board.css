@@ -1,0 +1,8 @@
+.Board {
+	margin-bottom: 1em;
+} 
+
+/*to do -> solucionar grid, que no depengui de les columnes/files*/
+.disabled {
+    pointer-events: none;
+}

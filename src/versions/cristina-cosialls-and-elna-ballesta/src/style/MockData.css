@@ -1,0 +1,14 @@
+.mockData-container {
+    display: flex;
+}
+
+.mockData-textarea {
+    width: 300px;
+    height: 100px;
+    border: 2px solid #990000;
+}
+
+.mockData-textarea:hover, .mockData-textarea:focus {
+    border: 2px solid #77a186;
+    outline: none;
+}
