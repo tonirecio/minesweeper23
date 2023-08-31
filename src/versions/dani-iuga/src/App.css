@@ -1,0 +1,109 @@
+.board {
+  display: inline-block;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+}
+
+.page {
+  background-color: rgb(255, 239, 216);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.cellStyle {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  background: #f0f0f0;
+  font-weight: bold;
+}
+
+.cellRedStyle {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  background: red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.flagsCount {
+  font-Weight: bold;
+}
+
+.timerCount {
+  font-Weight: bold;
+}
+
+.reset {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cellStyle.revealed {
+  background-color: white;
+}
+
+.cellStyle.revealed.cellMineStyle {
+  background-color: red;
+  color: white;
+}
+
+.game-message {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 24px;
+  color: red;
+}
+
+.options-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.options-panel button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+.options-panel button:hover {
+  background-color: #e0e0e0;
+}
